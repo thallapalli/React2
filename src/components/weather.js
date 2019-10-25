@@ -8,7 +8,7 @@ const Weather = (props) => {
             {props.temparature && <p> Temp: {props.temparature}</p>}
             {props.humidity && <p> Humidity: {props.humidity}</p>}
             {props.pressure && <p> Pressure: {props.pressure}</p>}
-            {props.icon &&<image src={'http://openweathermap.org/img/wn/${props.icon}.png'} alt="weather icon"></image> }
+            {props.icon &&<image src={`http://openweathermap.org/img/wn/${props.icon}.png`} alt="weather icon"></image> }
             {props.description && <p> Weather condition: {props.description}</p>}
             {props.error && <p> {props.error}</p>}
         </div>
