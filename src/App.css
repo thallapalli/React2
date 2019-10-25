@@ -1,22 +1,25 @@
-.App {
+html {
+  box-sizing: border-box
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.appstlye {
+  background-image: url(weather.jpg);
+  width:50%;
+  border: 3px solid black;
+  box-shadow: 3px 3px burlywood;
   text-align: center;
+  margin: 20px auto;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+button {
+  background-color : #0e9e54;
 }

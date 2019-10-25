@@ -72,7 +72,7 @@ if(city && country) {
 
 render (){
     return (
-    <div>
+    <div className="appstlye">
           <Header/>
           <Form loadWeather={this.getWeather}/>
           <Weather temparature={this.state.temparature}
